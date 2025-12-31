@@ -5,11 +5,11 @@
 
 .archive__item-teaser {
   /* Option A: aspect ratio for taller books */
-  aspect-ratio: 2 / 4;
+  // aspect-ratio: 2 / 4;
 
   /* or Option B: fixed height */
-  /* height: 350px; */
-  /* width: auto; */
+  height: 350px;
+  width: auto;
 
   overflow: hidden;
   background: #f2f2f2;
