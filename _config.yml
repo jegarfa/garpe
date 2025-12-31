@@ -1,94 +1,42 @@
-title: Escritos
+title: GarPe Escritos
 email: email@hotmail.com
 description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  Free book-like PDF notes shared openly.
+url: "https://jegarfa.github.io"
+
 minimal_mistakes_skin: default
 search: true
 
-# Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-permalink: /:categories/:title/
-paginate: 0
-paginate_path: /page:num/
-timezone:
+theme: null
+
+collections:
+  books:
+    output: true
+    permalink: /books/:title/
 
 include:
   - _pages
 
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
 
-author:
-  name: "Your Name"
-  avatar: "assets/images/bio-photo.jpg"    # Upload your photo here
-  bio: "A short biography about you, what you do, your interests, etc."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://yourwebsite.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/yourhandle"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/yourhandle"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/yourprofile"
-
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/yourhandle"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/yourhandle"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/yourprofile"
-
 defaults:
-  # Use sidebar layout for all pages and posts to show left sidebar
   - scope:
       path: ""
       type: pages
     values:
-      layout: sidebar
-      author_profile: true
+      layout: single
+      author_profile: false
+
   - scope:
       path: ""
-      type: posts
+      type: books
     values:
-      layout: sidebar
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages folder pages default
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: sidebar
-      author_profile: true
-
-category_archive:
-  type: liquid
-  path: /categories/
-
-tag_archive:
-  type: liquid
-  path: /tags/
+      layout: single
+      author_profile: false
 
