@@ -14,7 +14,7 @@ theme: null
 collections:
   books:
     output: true
-    permalink: /books/:name/
+    permalink: /books/:title/
 
 include:
   - _pages
