@@ -1,13 +1,8 @@
 ---
 title: "My Notes Book"
 excerpt: "Free PDF notes written in book form."
-header:
-  teaser: /assets/images/bio-photo.jpg
-excerpt: "Free PDF notes written in book form."
-header:
-  teaser: /assets/images/bio-photo.jpg
-excerpt: "Free PDF notes written in book form."
-header:
-  teaser: /assets/images/bio-photo.jpg
+image: /assets/images/bio-photo.jpg
+layout: book
+pdf: /assets/pdf/my-notes-book.pdf    # your actual PDF file path
 ---
 
