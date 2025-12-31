@@ -30,7 +30,7 @@ plugins:
 
 author:
   name: "Your Name"
-  avatar: "/assets/images/your-photo.jpg"    # Upload your photo here
+  avatar: "assets/images/bio-photo.jpg"    # Upload your photo here
   bio: "A short biography about you, what you do, your interests, etc."
   links:
     - label: "Website"
