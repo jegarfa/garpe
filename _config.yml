@@ -28,7 +28,7 @@ plugins:
 # Author information for the sidebar
 author:
   name: "Your Name"
-  avatar: "/assets/images/bio-photo.jpg"  # upload your photo here
+  avatar: "/assets/images/photo.png"  # upload your photo here
   bio: "A short biography about you, what you do, and your interests."
   links:
     - label: "Website"
