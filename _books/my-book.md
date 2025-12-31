@@ -2,7 +2,7 @@
 title: "My Notes Book"
 excerpt: "Free PDF notes written in book form."
 header:
-  teaser: /assets/images/bio-photo.jpg
+  teaser: /assets/images/book1.png
 pdf: /garpe/assets/pdf/my-notes-book.pdf
 ---
 
